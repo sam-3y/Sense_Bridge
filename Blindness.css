@@ -1,0 +1,174 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  .webpage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #051836;
+    color: #fff;
+    padding: 2px;
+  }
+  header .logo{
+    width: 130px;
+    height:auto;
+    margin-right:20px;
+  }
+  nav{
+    padding: 4px;
+   
+  }
+  nav ul {
+    
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav li {
+
+    font-size:large;
+     display: inline-block;
+     margin-right: 20px;
+     letter-spacing: 1px;
+ 
+ }
+  
+  .hello {
+
+     font-size:large;
+      display: inline-block;
+      margin-right: 20px;
+      letter-spacing: 1px;
+  
+  }
+  
+  nav a {
+    
+    font:bolder;
+    font-size: 17px;
+    color: #E8E280;
+    text-decoration: none;
+  }
+
+  #imageblind{
+      background-image: url(Photos/Child-student-reading.png);
+      background-attachment: fixed;
+      background-size: contain;
+      height: 150px;
+      color: #051836;
+      padding: 170px;
+    
+  }
+
+  #imageblind .Welcome {
+    font-size: 30px;
+    font-weight:lighter;
+    text-align:left;
+    color: #051836;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  
+}
+  .Form {
+   
+    background-color: white;
+    background-size: contain;
+    height: 180px;
+    color: #051836;
+    padding: 200px;
+    margin-bottom: 100px;
+    
+    
+  }
+  .text{
+    font-size:20px;
+    color:#051836;
+  }
+  .hello{
+    flex-grow: 1;
+  font-size: 30px;
+  font-weight:lighter;
+  color: #051836;
+  text-align:center-left;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  width:1000px;
+  }
+ 
+  .file {
+    font-size: 20px;
+    font-weight:lighter;
+    color: #051836;
+    text-align: center-left;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    
+     }
+     
+  .reading button {
+    align-items: left;
+    background-color:#E8E280 ;
+    color:#051836;
+    border: none ;
+    border-radius: 35px;
+    padding: 15px 18px;
+    text-align: center;
+    font: bold;
+    font-size: 15px;
+    margin: 10px 2px;
+    cursor: pointer;
+    letter-spacing: 0,5px;
+    margin-bottom: 2px;
+   }
+  .reading button:hover{
+    background-color:#051836  ;
+    color:#E8E280  ;   
+    padding: 18px 18px;                                                          
+    
+  }
+  
+.visiting h1{
+  font-size: 30px;
+  font-weight:bold;
+  text-align: center;
+  color: #051836;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+  .visiting p{
+    font-size: 20px;
+    font-weight:lighter;
+    color: #051836;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  
+  
+  footer {
+    display:flexbox;
+    background-color: #051836;
+    color: #E8E280;
+    padding: 8px;
+    text-align: left;
+    width: 1150px;
+    
+  }
+  footer .logo{
+    background-size:contain;
+    height: 40px;
+    color: #051836;
+    padding: 5px;
+   display: flex;
+   align-items: right;
+    margin-left: 1000px;
+
+  }

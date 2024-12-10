@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sense Bridge</title>
+  <link rel="stylesheet" href="home.css">
+  
+</head>
+<div class="webpage"> 
+<body>
+
+  <header> <img src="Photos/Sense Bridge logo.jpg" alt="Sense Bridge Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Deafness.html">Deafness</a></li>
+        <li><a href="Blindness.html">Blindness</a></li>
+        <li><a href="#start"> <button> Get Started </button> </a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="childImage">
+    <img src="Photos/Child_Image.png" alt="Child Image">
+  </div>
+
+
+  <section id="headline">
+    <div class="headline">
+      A World of Learning, Accessible to All.
+    </div>
+    <div class="text">
+      <p>Leveling the playing field.
+        Our platform Sense Bridge empowers differently abled students to learn and succeed!</p>
+    </div>
+
+       <div class="button-start"> 
+       <a href="#start"> <button >Start Now</button> </a>
+      </div>
+  </section>
+
+
+  <section id="start">
+    <div class="title"> 
+      <h1>Let's get Started!</h1> 
+    </div>
+
+    <div class="text">
+    <p>Please select the kind of disability you have:</p>
+  </div>
+
+  <div class="button-container">
+
+    <a href="Deafness.html"><button>Deafness </button> </a>
+    <a href="Blindness.html"> <button>Blindness</button> </a>
+  </div>
+
+  </section>
+
+  <div class="features-title"> 
+    <h1>Why Choosing Us? </h1> 
+  </div>
+
+  <section class="features"  id="features">
+    <div class="feature">
+      <img src="Photos/icon_empowerment.png">
+    <h2> 
+      Empowering
+    </h2>
+    <p>
+      Our platform empowers differently abled learners to reach their full potential 
+      and achieve their goals.
+    </p>
+    </div>
+
+    <div class="feature">
+      <img src="Photos/icon_inclusivity.png">
+      <h2> 
+        Inclusive
+      </h2>
+      <p> 
+        We are making learning easier for everyone,
+         especially students with blindness and deafness. 
+      </p>
+    </div>
+
+    <div class="feature">
+      <img src="Photos/icon_accessibility.png">
+      <h2> 
+        Accessible
+      </h2>
+      <p>
+      Our platform provides tools and resources to help students learn and grow,
+       no matter their challenges.
+      </p>
+    </div>
+   
+  </section>
+
+</div>
+
+
+<script> 
+window.addEventListener('scroll', () => {
+    const featuresSection = document.getElementById('features');
+    const rect = featuresSection.getBoundingClientRect();
+  
+    if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+      featuresSection.classList.add('show');
+    } else {
+      featuresSection.classList.remove('show');
+    }
+  });
+</script>
+</body>
+
+<footer>
+  <p>&copy; 2024 Dev Fest Project</p>
+  <div class="logo">
+  <img src="Photos/Sense Bridge logo.jpg" alt="Sense Bridge logo">
+</div>
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
